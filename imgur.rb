@@ -5,5 +5,4 @@ require 'asciiart'
 
 require_relative "classes"
 
-Image.import_imgs
-Image.browse("r")
+Interface.new(Imgur.create).browse("r")
